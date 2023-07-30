@@ -3,12 +3,12 @@
 782 -> 8
 918 -> 1*/
 
-Console.Write($"Введите техзначное число: ");
+Console.Write("Введите техзначное число: ");
 int Num3=int.Parse(Console.ReadLine ()!);
 string Num3S=Num3.ToString ();
 if (Num3S.Length == 3) 
 {
-    Console.WriteLine(Nim3S[1]);
+    Console.WriteLine(Num3S[1]);
 }
 else
 {
